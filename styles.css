@@ -5857,6 +5857,10 @@ nav.navbar .sub-menu li a:hover { color: #1DB6D4 !important; background-color: r
   }
 }
 
+.site-footer .footer-grid {
+  grid-template-columns: repeat(3, 1fr) !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
