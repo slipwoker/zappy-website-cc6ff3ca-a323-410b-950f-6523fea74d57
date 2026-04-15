@@ -793,9 +793,17 @@
 </script>
   
   <main>
-    <section id="hero" class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
+    <section id="hero" class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim" style="; position: relative; overflow: hidden;">
+<div class="hero-video-background">
+  <div class="hero-video-overlay"></div>
+  <video class="hero-video" autoplay="" muted="" loop="" playsinline="">
+    <source src="/assets/hero-video-clip-daylight-1776262300787.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <img class="hero-video-fallback" src="/assets/site-index-hero-image-1.webp" alt="Hero background" loading="lazy">
+</div>
   <div class="index-hero-bg">
-    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Stunning full-bleed aerial view of the Mediterranean Sea from Bat Galim neighborhood in Haifa, Israel. Crystal-clear turquoise and deep blue water stretching to the horizon, with the Haifa coastline visible below. Warm golden late-afternoon sunlight reflecting off the water surface. The scene conveys open sea views, breezy coastal atmosphere, and Mediterranean beauty. Photorealistic, high-resolution, cinematic quality." width="1200" height="700" src="/assets/site-index-hero-image-1.webp" alt="נוף ים תיכוני מרהיב מבת גלים, חיפה" class="index-hero-img">
+    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Stunning full-bleed aerial view of the Mediterranean Sea from Bat Galim neighborhood in Haifa, Israel. Crystal-clear turquoise and deep blue water stretching to the horizon, with the Haifa coastline visible below. Warm golden late-afternoon sunlight reflecting off the water surface. The scene conveys open sea views, breezy coastal atmosphere, and Mediterranean beauty. Photorealistic, high-resolution, cinematic quality." width="1200" height="700" src="/assets/site-index-hero-image-1.webp" alt="נוף ים תיכוני מרהיב מבת גלים, חיפה" class="index-hero-img hero-original-image-hidden" style="; display: none !important;">
   </div>
   <div class="index-hero-scrim" aria-hidden="true"></div>
   <div class="index-hero-content">
