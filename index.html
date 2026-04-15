@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -223,29 +223,9 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="דירת נופש — לראות את הים (See the Sea)">
     <meta name="twitter:description" content="A vacation apartment called &#39;See the Sea&#39; (לראות את הים) located in Bat Galim, Haifa, Israel. The name evokes a strong connection to the sea and ocean views, su">
-    <meta property="og:type" content="website">
-  <meta property="og:locale" content="he_IL">
-  
-  
-  
-  
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <!-- Favicons -->
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
-    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-    <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
-    <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
-    <!-- Mickidum Accessibility Toolbar -->
-    <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+    
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <style id="zappy-dropdown-submenu-styles">
       /* ========== DESKTOP DROPDOWN SUBMENU STYLES ========== */
@@ -1154,7 +1134,154 @@
 </section>
   </main>
   
-  <footer class="site-footer" dir="rtl">
+  
+
+<section class="contact-section" id="contact" dir="rtl" lang="he">
+  <div class="contact-container">
+    <!-- Section Header -->
+    <div class="contact-header">
+      <span class="contact-badge">📩 צור קשר</span>
+      <h2 class="contact-title">צרו איתנו קשר</h2>
+      <p class="contact-subtitle">
+        רוצים לשמוע את קול הגלים? אנחנו כאן לכל שאלה, בירור ומידע על הזמנת הדירה.<br>
+        מלאו את הטופס ונחזור אליכם בהקדם האפשרי.
+      </p>
+    </div>
+
+    <!-- Form Card -->
+    <div class="contact-card">
+      <form class="contact-form" id="contactForm" novalidate="" aria-label="טופס יצירת קשר והזמנה">
+
+        <!-- Row 1: Name + Phone -->
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="fullName">
+              שם מלא <span class="required-mark" aria-hidden="true">*</span>
+            </label>
+            <input class="form-input" type="text" id="fullName" name="fullName" placeholder="ישראל ישראלי" required="" autocomplete="name" aria-required="true">
+            <span class="field-error" id="fullName-error" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="phone">
+              מספר טלפון <span class="required-mark" aria-hidden="true">*</span>
+            </label>
+            <input class="form-input" type="tel" id="phone" name="phone" placeholder="050-0000000" required="" autocomplete="tel" aria-required="true" dir="ltr">
+            <span class="field-error" id="phone-error" role="alert" aria-live="polite"></span>
+          </div>
+        </div>
+
+        <!-- Row 2: Email -->
+        <div class="form-row form-row--single">
+          <div class="form-group">
+            <label class="form-label" for="email">
+              כתובת אימייל <span class="optional-mark">(לא חובה)</span>
+            </label>
+            <input class="form-input" type="email" id="email" name="email" placeholder="example@email.com" autocomplete="email" dir="ltr">
+            <span class="field-error" id="email-error" role="alert" aria-live="polite"></span>
+          </div>
+        </div>
+
+        <!-- Row 3: Check-in + Check-out -->
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="checkin">
+              תאריך כניסה <span class="required-mark" aria-hidden="true">*</span>
+            </label>
+            <div class="input-icon-wrapper">
+              <input class="form-input form-input--date" type="date" id="checkin" name="checkin" required="" aria-required="true" dir="ltr">
+              <span class="input-icon" aria-hidden="true">📅</span>
+            </div>
+            <span class="field-error" id="checkin-error" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="checkout">
+              תאריך יציאה <span class="required-mark" aria-hidden="true">*</span>
+            </label>
+            <div class="input-icon-wrapper">
+              <input class="form-input form-input--date" type="date" id="checkout" name="checkout" required="" aria-required="true" dir="ltr">
+              <span class="input-icon" aria-hidden="true">📅</span>
+            </div>
+            <span class="field-error" id="checkout-error" role="alert" aria-live="polite"></span>
+          </div>
+        </div>
+
+        <!-- Row 4: Guests -->
+        <div class="form-row form-row--single">
+          <div class="form-group">
+            <label class="form-label" for="guests">
+              מספר אורחים <span class="required-mark" aria-hidden="true">*</span>
+            </label>
+            <div class="select-wrapper">
+              <select class="form-input form-select" id="guests" name="guests" required="" aria-required="true">
+                <option value="" disabled="" selected="">בחרו מספר אורחים</option>
+                <option value="1">1 אורח</option>
+                <option value="2">2 אורחים</option>
+                <option value="3">3 אורחים</option>
+                <option value="4">4 אורחים</option>
+              </select>
+              <span class="select-arrow" aria-hidden="true">▾</span>
+            </div>
+            <span class="field-error" id="guests-error" role="alert" aria-live="polite"></span>
+          </div>
+        </div>
+
+        <!-- Row 5: Notes -->
+        <div class="form-row form-row--single">
+          <div class="form-group">
+            <label class="form-label" for="notes">
+              הערות ובקשות מיוחדות <span class="optional-mark">(לא חובה)</span>
+            </label>
+            <textarea class="form-input form-textarea" id="notes" name="notes" placeholder="כתבו כאן כל בקשה מיוחדת, שאלה או מידע נוסף שתרצו לשתף..." rows="4" aria-describedby="notes-hint"></textarea>
+            <span class="field-hint" id="notes-hint">לדוגמה: הגעה מאוחרת, צורך בעריסה לתינוק, חגיגה מיוחדת וכו׳</span>
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-submit-row">
+          <button class="submit-btn" type="submit" id="submitBtn" aria-label="שלחו את הטופס לצוות הדירה">
+            <span class="submit-btn__text">שלחו פנייה</span>
+            <span class="submit-btn__icon" aria-hidden="true">🌊</span>
+          </button>
+          <p class="form-privacy-note">
+            <span aria-hidden="true">🔒</span> פרטיכם שמורים אצלנו בסודיות מלאה ולא יועברו לגורם שלישי
+          </p>
+        </div>
+
+      </form>
+
+      <!-- Success Message (hidden by default) -->
+      <div class="form-success" id="formSuccess" role="status" aria-live="polite" aria-hidden="true">
+        <div class="form-success__icon" aria-hidden="true">🎉</div>
+        <h3 class="form-success__title">הפנייה התקבלה בהצלחה!</h3>
+        <p class="form-success__text">תודה שפנית אלינו. נחזור אליך בהקדם האפשרי לאישור ההזמנה.</p>
+        <button class="success-back-btn" id="successBackBtn" type="button">שלח פנייה נוספת</button>
+      </div>
+    </div>
+
+    <!-- Decorative info strip -->
+    <div class="contact-info-strip">
+      <div class="info-item">
+        <span class="info-icon" aria-hidden="true">📍</span>
+        <span>ישירות על קו החוף</span>
+      </div>
+      <div class="info-divider" aria-hidden="true"></div>
+      <div class="info-item">
+        <span class="info-icon" aria-hidden="true">📞</span>
+        <span>זמינים 7 ימים בשבוע</span>
+      </div>
+      <div class="info-divider" aria-hidden="true"></div>
+      <div class="info-item">
+        <span class="info-icon" aria-hidden="true">⚡</span>
+        <span>מענה תוך 24 שעות</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer" dir="rtl">
   <div class="footer-main">
     <div class="footer-container">
       <div class="footer-grid">
@@ -1254,7 +1381,9 @@
     <i class="fab fa-whatsapp"></i>
   </a>
   
-  <div data-integration="accessibility:toolbar"></div>
+  <script src="/script.js"></script>
+
+    <div data-integration="accessibility:toolbar"></div>
 
     <script src="/script.js"></script>
 
